@@ -1,22 +1,24 @@
-# aws-vite-demo
-demo for aws / vite bug
+# next_prototype
 
-```bash
-git clone git@github.com:Mootook/aws-vite-demo.git # clone the repo
-
-cd aws-vite-demo
-
-
-# Running node v12.20.1
-
-# dependencies
-npm install
-
-# start local server
-npm run dev 
+## Project setup
+```
+yarn install
 ```
 
-## Notes
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
 
-I also ran into a `global is not defined` with aws-amplify v3.3.17.
-See `index.html` for solution.
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
