@@ -7,9 +7,7 @@
           <span class="flex-shrink-0 inline-block relative">
             <img
               class="h-12 w-12 rounded-lg"
-              :src="
-                `https://farm${notification.photo.farm}.staticflickr.com/${notification.photo.server}/${notification.photo.photoId}_${notification.photo.secret}_s.jpg`
-              "
+              :src="`https://farm${notification.photo.farm}.staticflickr.com/${notification.photo.server}/${notification.photo.photoId}_${notification.photo.secret}_s.jpg`"
               alt=""
             />
             <!-- <span
@@ -58,7 +56,7 @@
           leave-to-class="transform opacity-0 scale-95"
         >
           <div
-            class="origin-top-right absolute z-10 top-0 right-9 w-48 rounded-md shadow-lg "
+            class="origin-top-right absolute z-10 top-0 right-9 w-48 rounded-md shadow-lg"
             v-show="dialog"
           >
             <div class="rounded-md bg-white ring-1 ring-black ring-opacity-5">

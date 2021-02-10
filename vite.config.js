@@ -1,8 +1,8 @@
-import vue from "@vitejs/plugin-vue";
-import nodeResolve from "@rollup/plugin-node-resolve";
-import ViteComponents from "vite-plugin-components";
-import json from "@rollup/plugin-json";
-import { resolve } from "path";
+import vue from '@vitejs/plugin-vue'
+import nodeResolve from '@rollup/plugin-node-resolve'
+import ViteComponents from 'vite-plugin-components'
+import json from '@rollup/plugin-json'
+import { resolve } from 'path'
 
 /**
  * https://vitejs.dev/config/
@@ -13,24 +13,24 @@ export default {
     vue(),
     ViteComponents({
       // relative paths to the directory to search for components.
-      dirs: ["src/components", "src/layouts"],
-    }),
+      dirs: ['src/components', 'src/layouts']
+    })
   ],
   alias: {
-    "@": resolve(__dirname, "src"),
+    '@': resolve(__dirname, 'src')
   },
   build: {
     rollupOptions: {
       transformAssetsUrls: {
-        img: ["src", "data-src"],
+        img: ['src', 'data-src']
       },
       plugins: [
         nodeResolve({
           browser: true,
-          preferBuiltins: false,
+          preferBuiltins: false
         }),
-        json(),
-      ],
-    },
-  },
-};
+        json()
+      ]
+    }
+  }
+}

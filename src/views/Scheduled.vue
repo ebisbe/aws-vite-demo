@@ -23,7 +23,7 @@
                       {{ key }}
                     </h2>
                     <template v-for="(group, groupTitle) in day" :key="`header-${groupTitle}`">
-                      <div class="relative" >
+                      <div class="relative">
                         <div class="absolute inset-0 flex items-center" aria-hidden="true">
                           <div class="w-full border-t border-gray-300"></div>
                         </div>
@@ -49,9 +49,7 @@
                             class="flex-shrink-0 flex items-center justify-center w-16 text-white text-sm rounded-l-md overflow-hidden"
                           >
                             <img
-                              :src="
-                                `https://farm${photo.photo.farm}.staticflickr.com/${photo.photo.server}/${photo.photoId}_${photo.photo.secret}_q.jpg`
-                              "
+                              :src="`https://farm${photo.photo.farm}.staticflickr.com/${photo.photo.server}/${photo.photoId}_${photo.photo.secret}_q.jpg`"
                             />
                           </div>
                           <div
@@ -65,7 +63,7 @@
                             </div>
                             <div class="flex-shrink-0 pr-2">
                               <button
-                                class=" w-8 h-8 bg-white inline-flex items-center justify-center text-gray-400 rounded-full bg-transparent hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                                class="w-8 h-8 bg-white inline-flex items-center justify-center text-gray-400 rounded-full bg-transparent hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                               >
                                 <span class="sr-only">Open options</span>
                                 <!-- Heroicon name: dots-vertical -->

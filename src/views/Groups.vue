@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white shadow overflow-hidden sm:rounded-md ">
+  <div class="bg-white shadow overflow-hidden sm:rounded-md">
     <!-- Content goes here -->
     <ul>
       <li v-for="group of groups" :key="group.name" class="border-t border-gray-200">
@@ -90,9 +90,7 @@
               >
                 <button
                   type="button"
-                  class="inline-flex items-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded
-                  text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2
-                  focus:ring-indigo-500"
+                  class="inline-flex items-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   <svg
                     class="-ml-0.5 mr-2 h-4 w-4"

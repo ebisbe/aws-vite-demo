@@ -227,19 +227,19 @@
                 Groups
               </router-link>
               <router-link
-              to="/photostream-v2"
+                to="/photostream-v2"
                 class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
               >
                 Photostream
               </router-link>
-             <router-link
-             to="/scheduled-v2"
+              <router-link
+                to="/scheduled-v2"
                 class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
               >
                 Scheduled
-             </router-link>
+              </router-link>
               <router-link
-              to="/activity-v2"
+                to="/activity-v2"
                 class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
               >
                 Activity

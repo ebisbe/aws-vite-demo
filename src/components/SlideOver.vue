@@ -367,9 +367,9 @@
       }
     },
     emits: ['close'],
-    watch:{
+    watch: {
       open(value) {
-        if(value) {
+        if (value) {
           this.content = true
         }
       }

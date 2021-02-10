@@ -71,10 +71,7 @@
         </div>
       </div>
       <div class="bg-white border overflow-hidden rounded-md px-4 py-5 sm:p-6">
-        <ul
-          class="grid grid-cols-1 gap-6 sm:grid-cols-2 pb-4 md:grid-cols-3 "
-          role="radiogroup"
-        >
+        <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 pb-4 md:grid-cols-3" role="radiogroup">
           <li v-for="(photo, key) of photos" :key="key" class="mx-6 sm:mx-0">
             <photo :photo="photo" @selected="slideOver = true" />
           </li>

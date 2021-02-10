@@ -76,7 +76,7 @@
         <div
           class="border-b border-gray-200 bg-gray-50 rounded-t-lg px-6 py-1 text-sm font-medium text-gray-500 flex justify-around"
         >
-          <template v-for="(letter, key ) in alphabet" :key="letter">
+          <template v-for="(letter, key) in alphabet" :key="letter">
             <span v-if="key !== 0" aria-hidden="true">&middot;</span>
             <button @click="somethhing" class="capitalize px-2">{{ letter }}</button>
           </template>

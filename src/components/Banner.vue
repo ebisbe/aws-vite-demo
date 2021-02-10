@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 ">
+  <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
     <div class="flex justify-center">
       <div class="flex-shrink-0">
         <!-- Heroicon name: exclamation -->

@@ -109,7 +109,7 @@
                           </div>
 
                           <ul
-                            class="mt-3 mb-2 last:mb-0 grid grid-cols-1 gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3 "
+                            class="mt-3 mb-2 last:mb-0 grid grid-cols-1 gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3"
                           >
                             <li
                               v-for="photo in group"

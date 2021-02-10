@@ -131,7 +131,6 @@
   </div>
 </template>
 <script>
-
   export default {
     data: () => ({
       slideOver: false,

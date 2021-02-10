@@ -2,11 +2,11 @@
   <div
     @click="$emit('selected')"
     tabindex="0"
-    class="col-span-1 flex flex-col rounded-lg overflow-hidden cursor-pointer focus:outline-none hover:ring-2 hover:ring-indigo-500 focus:ring focus:ring-indigo-700 "
+    class="col-span-1 flex flex-col rounded-lg overflow-hidden cursor-pointer focus:outline-none hover:ring-2 hover:ring-indigo-500 focus:ring focus:ring-indigo-700"
   >
-    <div class="flex-1 flex flex-col ">
+    <div class="flex-1 flex flex-col">
       <div class="relative text-white">
-        <div class=" absolute bottom-0 left-0 w-full px-4 py-2 bg-gray-600 bg-opacity-50 ">
+        <div class="absolute bottom-0 left-0 w-full px-4 py-2 bg-gray-600 bg-opacity-50">
           <div class="text-lg leading-6 font-medium space-y-1">
             <h4>{{ photo.name }}</h4>
           </div>
@@ -14,7 +14,7 @@
             <div class="flex items-center text-sm leading-5 w-1/3">
               <!-- Heroicon name: briefcase -->
               <svg
-                class="flex-shrink-0 mr-1.5 h-5 w-5  "
+                class="flex-shrink-0 mr-1.5 h-5 w-5"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -35,10 +35,10 @@
               </svg>
               {{ photo.views }}
             </div>
-            <div class=" flex items-center text-sm leading-5 w-1/3">
+            <div class="flex items-center text-sm leading-5 w-1/3">
               <!-- Heroicon name: calendar -->
               <svg
-                class="flex-shrink-0 mr-1.5 h-5 w-5 "
+                class="flex-shrink-0 mr-1.5 h-5 w-5"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -56,7 +56,7 @@
             <div class="flex items-center text-sm leading-5 w-1/3">
               <!-- Heroicon name: currency-dollar -->
               <svg
-                class="flex-shrink-0 mr-1.5 h-5 w-5 "
+                class="flex-shrink-0 mr-1.5 h-5 w-5"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -75,10 +75,10 @@
         </div>
         <span
           v-show="photo.private"
-          class="absolute right-3 top-3 h-8 w-8 rounded-full bg-gray-600 bg-opacity-50 flex items-center justify-center "
+          class="absolute right-3 top-3 h-8 w-8 rounded-full bg-gray-600 bg-opacity-50 flex items-center justify-center"
         >
           <svg
-            class="w-6 h-6 "
+            class="w-6 h-6"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -92,7 +92,7 @@
             ></path>
           </svg>
         </span>
-        <img class="object-cover h-48 w-full " :src="photo.image" :alt="photo.name" />
+        <img class="object-cover h-48 w-full" :src="photo.image" :alt="photo.name" />
       </div>
     </div>
   </div>

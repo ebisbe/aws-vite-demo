@@ -20,9 +20,7 @@
           <div class="h-full flex flex-col bg-white shadow-xl overflow-y-scroll">
             <header class="p-6">
               <div class="flex items-start justify-between space-x-3">
-                <h2 class="text-lg leading-7 font-medium text-gray-900">
-                  Notifications
-                </h2>
+                <h2 class="text-lg leading-7 font-medium text-gray-900">Notifications</h2>
                 <div class="h-7 flex items-center">
                   <button
                     aria-label="Close panel"
@@ -103,7 +101,6 @@
   </div>
 </template>
 <script>
-
   export default {
     data: () => ({
       filter: null,
