@@ -1,19 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" class="inline-block"/>
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <template v-if="$route.meta.layout">
+    <TheLayoutBroker
+      :layouts="$options.LAYOUTS"
+      :current="$route.meta.layout"
+    />
+  </template>
+  <router-view v-else />
 </template>
 
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+import Layout1 from "./layouts/Layout1.vue";
+import Layout2 from "./layouts/Layout2.vue";
+const LAYOUTS = {
+  Layout1,
+  Layout2,
+};
+export default {
+  LAYOUTS,
+};
 </script>
-
-<style>
-body {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
